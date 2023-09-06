@@ -1,0 +1,109 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "Hyperlink",
+					"_id": "AAAAAAGIkxMMEPqKNvI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Hyperlink1"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGIkxOuqvqb3Ng=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGIkxOuq/qcriw=",
+					"_parent": {
+						"$ref": "AAAAAAGIkxOuqvqb3Ng="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGIkxOuq/qdvHY=",
+							"_parent": {
+								"$ref": "AAAAAAGIkxOuq/qcriw="
+							},
+							"name": "RecipeMatcher"
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGIkzEofvqsw08=",
+					"_parent": {
+						"$ref": "AAAAAAGIkxOuqvqb3Ng="
+					},
+					"name": "Role1",
+					"type": "User"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGIkzHRC/rNEtQ=",
+					"_parent": {
+						"$ref": "AAAAAAGIkxOuqvqb3Ng="
+					},
+					"name": "Role2",
+					"type": "UserInterface"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGIkzJ4uvrx7mM=",
+					"_parent": {
+						"$ref": "AAAAAAGIkxOuqvqb3Ng="
+					},
+					"name": "Role3",
+					"type": "RecipeManager"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGIkzLBOfsRJ+4=",
+					"_parent": {
+						"$ref": "AAAAAAGIkxOuqvqb3Ng="
+					},
+					"name": "Role4",
+					"type": "CheckingManager"
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGIk3V7//t3jCM=",
+					"_parent": {
+						"$ref": "AAAAAAGIkxOuqvqb3Ng="
+					},
+					"name": "Role5",
+					"type": "Dispatcher"
+				}
+			]
+		}
+	]
+}
